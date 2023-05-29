@@ -1,0 +1,142 @@
+body {
+
+      background: url("imagenes/fondo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial;
+}
+
+div {
+      position: relative;
+      left: 725px;
+      top: 100px;
+}
+
+
+
+ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+
+}
+
+ul li {
+      float: left;
+      width: 450px;
+      height: 80px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      /*pon que la letra se ponga en negrita*/
+      font-weight: bold;
+      border-radius: 10px;
+
+
+
+
+
+
+
+
+
+
+}
+
+ul li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      border-radius: 10px;
+
+
+}
+
+ul li a:hover {
+      background-color: green;
+}
+
+ul li ul li {
+      display: none;
+
+}
+
+ul li:hover ul li {
+      display: block;
+
+
+}
+
+#toti {
+      position: absolute;
+      left: 730px;
+      top: 56px;
+      width: 2%;
+}
+
+#toti2 {
+      position: absolute;
+      left: 770px;
+      top: 63px;
+      width: 2%;
+}
+
+#toti3 {
+      position: absolute;
+      left: 810px;
+      top: 60px;
+      width: 2%;
+}
+
+#toti4 {
+      position: absolute;
+      left: 850px;
+      top: 75px;
+      width: 2%;
+}
+
+#toti5 {
+      position: absolute;
+      left: 890px;
+      top: 70px;
+      width: 2%;
+}
+
+#toti6 {
+      position: absolute;
+      left: 935px;
+      top: 73px;
+      width: 3%;
+}
+
+#toti7 {
+      position: absolute;
+      left: 983px;
+      top: 45px;
+      width: 2%;
+}
+
+#toti8 {
+      position: absolute;
+      left: 1020px;
+      top: 57px;
+      width: 4%;
+}
+
+#toti9 {
+      position: absolute;
+      left: 1085px;
+      top: 65px;
+      width: 3%;
+}
+
+#toti10 {
+      position: absolute;
+      left: 1130px;
+      top: 65px;
+      width: 2%;
+}

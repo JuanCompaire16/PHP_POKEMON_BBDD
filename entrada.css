@@ -1,0 +1,11 @@
+#pk {
+      position: absolute;
+      width: 40%;
+}
+
+#logo {
+      position: relative;
+      width: 30%;
+      top: 745px;
+      left: 635px;
+}

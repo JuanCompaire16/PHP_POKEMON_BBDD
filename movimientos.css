@@ -1,0 +1,145 @@
+body {
+
+      background: url("imagenes/cositis.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.poke {
+      overflow-y: scroll;
+      height: 655px;
+      width: 950px;
+      margin: auto;
+      margin-top: 100px;
+      background-color: #903fc2;
+      position: absolute;
+      top: 102px;
+      left: 450px;
+
+
+}
+
+td {
+
+      text-align: center;
+      padding: 12px 15px;
+
+      color: #fff;
+      font-size: 35px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+
+      border-bottom: 1px solid #ddd;
+}
+
+.inicio {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: bold;
+      border-radius: 10px;
+      position: absolute;
+      left: 5px;
+      top: 950px;
+
+}
+
+
+ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+
+}
+
+ul li {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      /*pon que la letra se ponga en negrita*/
+      font-weight: bold;
+      border-radius: 10px;
+
+}
+
+ul li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      border-radius: 10px;
+}
+
+ul li a:hover {
+      background-color: green;
+}
+
+h3 {
+      color: white;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-align: center;
+      position: relative;
+      top: 0px;
+      left: 0px;
+}
+
+#tipo {
+      position: absolute;
+      left: 575px;
+      top: 183px;
+
+}
+
+button {
+      position: absolute;
+      left: 645px;
+      top: 182px;
+}
+
+#power {
+      position: absolute;
+      left: 775px;
+      top: 180px;
+}
+
+h3 {
+      position: absolute;
+      font-size: 20px;
+      left: 806px;
+      top: 145px;
+
+}
+
+span {
+      position: absolute;
+      font-size: 20px;
+      left: 908px;
+      top: 177px;
+}
+
+#name {
+      position: absolute;
+      left: 1008px;
+      top: 178px;
+}
+
+h1 {
+      position: absolute;
+      left: 800px;
+      top: 25px;
+
+}

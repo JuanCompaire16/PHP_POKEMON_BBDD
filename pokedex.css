@@ -1,0 +1,152 @@
+body {
+
+      background: url("imagenes/fondopokedex.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+table {
+      /*hazme que las letras sean bold*/
+
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      min-width: 400px;
+
+}
+
+
+
+td {
+      /*ponme el font que se utiliza en la pokedex de pokemon*/
+
+      text-align: center;
+      padding: 12px 15px;
+
+      color: #fff;
+      font-size: 30px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+
+
+      border-bottom: 1px solid #ddd;
+}
+
+.poked {
+      overflow-y: scroll;
+      height: 600px;
+      width: 1120px;
+      margin: auto;
+      margin-top: 100px;
+      background-color: #009893;
+
+}
+
+.inicio {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      /*pon que la letra se ponga en negrita*/
+      font-weight: bold;
+      border-radius: 10px;
+      position: relative;
+      left: 0px;
+      top: 45px;
+
+}
+
+.filtro {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      /*pon que la letra se ponga en negrita*/
+      font-weight: bold;
+      border-radius: 10px;
+      position: relative;
+      left: 1255px;
+      top: 45px;
+
+}
+
+ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+
+}
+
+ul li {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      /*pon que la letra se ponga en negrita*/
+      font-weight: bold;
+      border-radius: 10px;
+
+}
+
+ul li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      border-radius: 10px;
+}
+
+ul li a:hover {
+      background-color: green;
+}
+
+h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+}
+
+th {
+      color: black;
+      font-size: 20px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+}
+
+form {
+      position: absolute;
+      left: 780px;
+      top: 130px;
+}
+
+#buscador {
+      height: 30px;
+
+
+
+}
+
+button {
+      height: 25px;
+      border-radius: 8px;
+
+}
+
+tr {}

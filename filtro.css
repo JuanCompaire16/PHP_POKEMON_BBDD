@@ -1,0 +1,190 @@
+body {
+
+      background: url("imagenes/filtro-fondo.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+
+.inicio {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: bold;
+      border-radius: 10px;
+      position: absolute;
+      left: 10px;
+      top: 950px;
+
+}
+
+.movimientos {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: bold;
+      border-radius: 10px;
+      position: absolute;
+      left: 1555px;
+      top: 950px;
+
+}
+
+ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+
+}
+
+ul li {
+      float: left;
+      width: 300px;
+      height: 50px;
+      background-color: black;
+      opacity: .8;
+      line-height: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      /*pon que la letra se ponga en negrita*/
+      font-weight: bold;
+      border-radius: 10px;
+
+}
+
+ul li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      border-radius: 10px;
+}
+
+ul li a:hover {
+      background-color: green;
+}
+
+h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+}
+
+th {
+      color: black;
+      font-size: 20px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+}
+
+.poke {
+      overflow-y: scroll;
+      height: 730px;
+      width: 1200px;
+      margin: auto;
+      margin-top: 100px;
+      background-color: #C2773F;
+      position: absolute;
+      top: 80 px;
+      left: 350px;
+}
+
+td {
+      /*ponme el font que se utiliza en la pokedex de pokemon*/
+
+      text-align: center;
+      padding: 12px 15px;
+
+      color: #fff;
+      font-size: 25px;
+      font-family: 'monospace', cursive;
+      font-weight: bold;
+
+      border-bottom: 1px solid #ddd;
+}
+
+#tipo {
+      position: absolute;
+      left: 500px;
+      top: 172px;
+      height: 25px;
+      border-radius: 10px;
+}
+
+#habitat {
+      position: absolute;
+      left: 570px;
+      top: 172px;
+      border-radius: 10px;
+      height: 25px;
+}
+
+button {
+      position: absolute;
+      left: 680px;
+      top: 170px;
+      border-radius: 10px;
+      height: 29px;
+
+}
+
+.container {
+      text-align: center;
+      margin-top: 360px;
+}
+
+.btn {
+      border: 1px solid #3498db;
+      background: none;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-family: monospace;
+      cursor: pointer;
+      margin: 10px;
+}
+
+.btn1,
+.btn2 {
+      color: #3498db
+}
+
+.btn1:hover {
+      color: #0d5687;
+      background-color: #9dc7e3;
+}
+
+.btn::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 0%;
+      background: #3498db;
+      z-index: -1;
+      transition: 0.8s;
+}
+
+.btn1::before {
+      top: 0;
+      border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before {
+      height: 180%;
+}
